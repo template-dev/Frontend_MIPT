@@ -1,0 +1,27 @@
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-image-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+.movie-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.movie-card:hover .movie-image {
+  transform: scale(1.05);
+}
